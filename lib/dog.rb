@@ -61,7 +61,7 @@ class Dog
       WHERE name = ?
     SQL
     
-    DB[:conn].execute(sql, name)
+    DB[:conn].execute(sql, name).collect { |row| self.new_from_db(row) }.first
   end
   
 end
