@@ -25,7 +25,7 @@ class Dog
   end
   
   def save
-    
+    sql = 
   end
   
 end
