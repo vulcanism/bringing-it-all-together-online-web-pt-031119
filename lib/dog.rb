@@ -25,6 +25,9 @@ class Dog
   end
   
   def self.new_from_db(data)
+    id = data[0]
+    name = data[1]
+    breed = data[2]
     
   end
   
