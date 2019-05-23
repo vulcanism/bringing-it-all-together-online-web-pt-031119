@@ -55,4 +55,8 @@ class Dog
     DB[:conn].execute(sql, id).collect { |row| self.new_from_db(row) }.first
   end
   
+  def self.find_by_name(name)
+    
+  end
+  
 end
