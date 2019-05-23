@@ -69,7 +69,7 @@ class Dog
     
     if !dog.empty?
       dog_details = dog[0]
-      dog = self.new
+      dog = self.new(dog_details[0])
   end
   
 end
