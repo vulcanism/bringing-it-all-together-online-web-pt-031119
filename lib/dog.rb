@@ -25,7 +25,7 @@ class Dog
   end
   
   def save
-    sql = 
+    sql = "INSERT INTO dogs"
   end
   
 end
