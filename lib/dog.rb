@@ -64,7 +64,7 @@ class Dog
     DB[:conn].execute(sql, name).collect { |row| self.new_from_db(row) }.first
   end
   
-  def self.find_or_create_by
+  def self.find_or_create_by(name:, breed:)
     
   end
   
