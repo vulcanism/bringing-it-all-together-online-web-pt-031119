@@ -28,7 +28,7 @@ class Dog
     id = data[0]
     name = data[1]
     breed = data[2]
-    new_dog = self.new(id, name, breed)
+    new_dog = self.new(id: id, name: name, breed: breed)
     new_dog
   end
   
